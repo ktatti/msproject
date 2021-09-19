@@ -1,0 +1,4 @@
+resource "aws_key_pair" "komali_keypair" {
+  key_name   = "komali_keypair"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAzYkajJtBmhCfx5f2fvO15gjHnlsfUgKnmUdPM51eQxoRTMGELee5PS+jOFfCcbXTnxIDSHXqn1Ai3THSNf4Z8FoMNgTEt1KG0BPgVTmTOABHd3AHPSeEvvXvqOV8zUpAId3ylbvAY96H2I12X4x2v1vaeCORjMgk8GQZvvvGC0B/JgAcrHA9et9AlMY7KYf69KJaBJkkKUsyezQ7u6LrUqbLiL8z6fyTdSp+5ZzEe3UyuEF4YsdWYbY7jOPWn1m8l0EkGtmMdQL99INYX6nrQbQgmg5K4kFUvYuOvVlloRuuM/H2iKn5Wfds/3xjt1KGkoxbqEfX4k3p4EWezIO59Q== rsa-key-20201105"
+}
